@@ -1,0 +1,1 @@
+function a(n,r,t){return n*(1-t)+r*t}function u(n,r,t,e){return a(n,r,1-Math.exp(-t*e))}function x(n,r,t,e,p){return e+(p-e)*(n-r)/(t-r)}function c(n,r,t){return Math.min(Math.max(t,n),r)}export{c as clamp,u as damp,a as lerp,x as map};

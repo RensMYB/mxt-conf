@@ -1,0 +1,8 @@
+/* Elements with entrance animations start hidden.
+   GSAP's autoAlpha handles the reveal. */
+
+[data-hero],
+[data-reveal] {
+  visibility: hidden;
+}
+
