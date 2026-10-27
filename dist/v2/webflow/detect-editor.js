@@ -1,0 +1,1 @@
+function o(e){let i=()=>{let t=document.body.firstElementChild;return t instanceof HTMLElement&&t.classList.contains("w-editor-publish-node")},n=i();e&&e(n),new MutationObserver(()=>{let t=i();t!==n&&(n=t,e&&e(t))}).observe(document.body,{childList:!0})}export{o as handleEditor};
